@@ -30,8 +30,9 @@ header{
     color: darkgreen;
 }
 
-.logo h1 span{
+.logo h1 a{
     color: saddlebrown;
+    text-decoration: none;
 }
 
 nav{
@@ -64,16 +65,28 @@ nav{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-
 
 .textoContenedor1{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
     color: #cccccc;
+    width: 300px;
+    margin-right: 20px;
+}
+.textoContenedor1 h2{
+    color: saddlebrown;
+}
+
+.imagenContenedor1{
+    width: 60%;
+    height: auto;
+
 }
 
 /*Contenedor2*/
@@ -82,6 +95,7 @@ nav{
     justify-content: center;
     margin-top: 20px;
     gap: 20px;
+    height: 100vh;
 }
 
 .tarjeta {
@@ -98,6 +112,7 @@ nav{
 .imagen img {
     width: 100%;
     height: auto;
+    margin-top: 30px;
 }
 
 .descripcion {
@@ -107,6 +122,7 @@ nav{
 }
 
 .descripcion h3 {
+    margin-bottom: 10px;
     margin-top: 0;
 }
 
@@ -119,17 +135,20 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: center;
     margin-top: 20px;
     gap: 20px;
+    height: 100vh;
 }
 
 .tarjetaFeedback {
-    width: calc(33.33% - 20px);
+    width: calc(33.33% - 50px);
     background-color: white;
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 150px;
 }
 
 .contenidoFeedback {
@@ -141,18 +160,17 @@ nav{
 }
 
 .contenidoFeedback span {
-    font-style: italic;
     color: grey;
 }
 
 .btnFeedback {
-    margin-top: 20px;
     padding: 10px 20px;
     background-color: darkgreen;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    height: 50px;
 }
 
 .btnFeedback:hover {
