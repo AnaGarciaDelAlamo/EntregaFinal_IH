@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menú - Éclat</title>
+
+    <link rel="stylesheet" href="menu.css">
+
+    <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+            rel="stylesheet"
+    />
+
+</head>
+<body>
+<header>
+    <div class="logo">
+        <h1>É<a href="index.html">clat</a></h1>
+    </div>
+    <nav>
+        <ul class="navLinks">
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="./index.html#contenedor2">Platos especiales</a></li>
+            <li><a href="reservas.html">Reservas</a></li>
+            <li><a href="nuestraHistoria.html">Nuestra historia</a></li>
+            <li><a href="./index.html#contenedor3">Feedback</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="filtros">
+    <label for="categorias">Seleccione la categoria:</label>
+    <select id="categorias">
+        <option value="todos">Todos</option>
+        <option value="entrantes">Entrantes</option>
+        <option value="platosPrincipales">Platos principales</option>
+        <option value="postres">Postres</option>
+    </select>
+    <label for="caracteristicas">Seleccione una característica:</label>
+    <select id="caracteristicas">
+        <option value="todos">Todos</option>
+        <option value="vegetariano">Vegetariano</option>
+        <option value="sinGluten">Sin Gluten</option>
+        <option value="picante">Picante</option>
+    </select>
+</div>
+<div class="menu">
+    <div class="tarjeta" data-categoria="entrantes" data-caracteristicas="vegetariano">
+        <div class="imagen">
+            <img src="img/entrante1_menu.png" alt="Entrante1">
+        </div>
+        <div class="descripcion">
+            <h3>Ensalada de Verano</h3>
+            <p>Mezcla de lechugas frescas, tomates cherry, pepino, aguacate y aderezo de limón. Una opción ligera y refrescante para comenzar tu comida.</p>
+        </div>
+    </div>
+    <div class="tarjeta" data-categoria="entrantes" data-caracteristicas="sinGluten">
+        <div class="imagen">
+            <img src="img/entrante2_menu.png" alt="Entrante2">
+        </div>
+        <div class="descripcion">
+            <h3>Rollitos de Primavera</h3>
+            <p>Rollitos de papel de arroz rellenos de verduras frescas y camarones, acompañados de salsa agridulce. Una deliciosa opción sin gluten para compartir.</p>
+        </div>
+    </div>
+    <div class="tarjeta" data-categoria="entrantes" data-caracteristicas="picante">
+        <div class="imagen">
+            <img src="img/entrante3_menu.png" alt="Entrante3">
+        </div>
+        <div class="descripcion">
+            <h3>Alitas de Pollo Picantes</h3>
+            <p>Alitas de pollo crujientes y doradas, bañadas en salsa picante y acompañadas de bastones de apio y aderezo de queso azul. Un clásico que no puedes dejar de probar.</p>
+        </div>
+    </div>
+    <div class="tarjeta" data-categoria="platosPrincipales" data-caracteristicas="vegetariano">
+        <div class="imagen">
+            <img src="img/plato1_menu.png" alt="Plato1">
+        </div>
+        <div class="descripcion">
+            <h3>Risotto de Champiñones</h3>
+            <p>Risotto cremoso con champiñones fres</p>
+        </div>
+    </div>
+    <div class="tarjeta" data-categoria="platosPrincipales" data-caracteristicas="vegetariano">
+        <div class="imagen">
+            <img src="img/plato2_menu.png" alt="Plato2">
+        </div>
+        <div class="descripcion">
+            <h3>Plato 2</h3>
+            <p>Risotto cremoso con champiñones fres</p>
+        </div>
+    </div>
+    <div class="tarjeta" data-categoria="platosPrincipales" data-caracteristicas="vegetariano">
+        <div class="imagen">
+            <img src="img/plato3_menu.png" alt="Plato3">
+        </div>
+        <div class="descripcion">
+            <h3>Plato3</h3>
+            <p>Risotto cremoso con champiñones fres</p>
+        </div>
+    </div>
+    <div class="tarjeta" data-categoria="postres" data-caracteristicas="vegetariano">
+        <div class="imagen">
+            <img src="img/plato3_menu.png" alt="Plato3">
+        </div>
+        <div class="descripcion">
+            <h3>postre1</h3>
+            <p>postre1</p>
+        </div>
+    </div>
+    <div class="tarjeta" data-categoria="postres" data-caracteristicas="vegetariano">
+        <div class="imagen">
+            <img src="img/plato3_menu.png" alt="Plato3">
+        </div>
+        <div class="descripcion">
+            <h3>Postre2</h3>
+            <p>postre2</p>
+        </div>
+    </div>
+    <div class="tarjeta" data-categoria="postres" data-caracteristicas="vegetariano">
+        <div class="imagen">
+            <img src="img/plato3_menu.png" alt="Plato3">
+        </div>
+        <div class="descripcion">
+            <h3>postre3</h3>
+            <p>postre3</p>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="contenidoFooter">
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <p>Dirección: 456 Avenida del Sol, Madrid</p>
+            <p>Teléfono: +123 456 7890</p>
+            <p>Email: eclatrestaurante@gmail.com</p>
+        </div>
+        <div class="redesSociales">
+            <h3>Síguenos</h3>
+            <div class="iconosRedes">
+                <a href="https://www.facebook.com/?locale=es_ES"><i class="ri-facebook-circle-fill"></i></a>
+                <a href="https://www.instagram.com"><i class="ri-instagram-line"></i></a>
+                <a href="https://twitter.com/"><i class="ri-twitter-line"></i></a>
+            </div>
+        </div>
+        <div class="derechos">
+            <p>&copy; 2024 Éclat. Todos los derechos reservados.</p>
+            <p><a href="#">Términos y condiciones</a> | <a href="#">Política de privacidad</a></p>
+        </div>
+    </div>
+
+    <script src="menu.js"></script>
+</footer>
+</body>
+</html>
