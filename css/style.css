@@ -14,7 +14,7 @@ html, body{
 
 body{
     font-family: "Poppins", sans-serif;
-    background-color: black;
+    background-color:#EEF4ED;
 }
 
 header{
@@ -27,11 +27,11 @@ header{
 
 .logo h1{
     margin: 0;
-    color: darkgreen;
+    color: #5296A5;
 }
 
 .logo h1 a{
-    color: saddlebrown;
+    color: #0B2545;
     text-decoration: none;
 }
 
@@ -52,12 +52,12 @@ nav{
 
 .navLinks li a{
     text-decoration: none;
-    color: darkgreen;
+    color: #5296A5;
     font-weight: 500;
 }
 
 .navLinks li a:hover{
-    color: saddlebrown;
+    color: #0B2545;
 }
 
 /*Contenedor1*/
@@ -81,12 +81,12 @@ nav{
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
-    color: #cccccc;
+    color: black;
     width: 300px;
     margin-right: 20px;
 }
 .textoContenedor1 h2{
-    color: saddlebrown;
+    color: #0B2545;
 }
 
 .imagenContenedor1{
@@ -106,7 +106,7 @@ nav{
 }
 
 .contenedor2 h2{
-    color:saddlebrown;
+    color:#0B2545;
     padding: 20px;
     text-align: center;
 }
@@ -124,7 +124,7 @@ nav{
     flex-direction: column;
     align-items: center;
     width: 20%;
-    border: 1px solid #ccc;
+    border: 1px solid #0B2545;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.63);
@@ -145,10 +145,11 @@ nav{
 .descripcion {
     padding: 15px;
     text-align: center;
-    color: #cccccc;
+    color: black;
 }
 
 .descripcion h3 {
+    color: #5296A5;
     margin-bottom: 10px;
     margin-top: 0;
 }
@@ -172,7 +173,7 @@ nav{
     width: 30%;
     padding: 20px;
     background-color: white;
-    border: 1px solid grey;
+    border: 1px solid #0B2545;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
@@ -202,7 +203,7 @@ nav{
 
 .btnFeedback {
     padding: 10px 20px;
-    background-color: darkgreen;
+    background-color: #0B2545;
     color: white;
     border: none;
     border-radius: 5px;
@@ -211,12 +212,12 @@ nav{
 }
 
 .btnFeedback:hover {
-    background-color: forestgreen;
+    background-color: #5296A5;
 }
 
 /*Footer*/
 footer{
-    background-color: dimgray;
+    background-color: #0B2545;
     color: white;
     padding: 50px 0;
     margin-top: 50px;
@@ -231,7 +232,7 @@ footer{
 
 .contenidoFooter h3{
     margin-bottom: 20px;
-    color: black;
+    color: #5296A5;
 }
 
 .contacto p{
