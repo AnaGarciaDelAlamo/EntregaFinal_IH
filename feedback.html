@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback - Éclat</title>
+
+    <link rel="stylesheet" href="feedback.css">
+
+    <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+            rel="stylesheet"
+    />
+</head>
+<body>
+<header>
+    <div class="logo">
+        <h1>É<a href="index.html">clat</a></h1>
+    </div>
+    <nav>
+        <ul class="navLinks">
+            <li><a href="menu.html">Menú</a></li>
+            <li><a href="./index.html#contenedor2">Platos especiales</a></li>
+            <li><a href="reservas.html">Reservas</a></li>
+            <li><a href="nuestraHistoria.html">Nuestra historia</a></li>
+            <li><a href="./index.html#contenedor3">Feedback</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="feedback">
+        <h2>Feedback</h2>
+        <form id="feedbackForm">
+            <div class="grupo">
+                <label for="nombre">Nombre y Apellidos:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="grupo">
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <div class="contenidoFooter">
+        <div class="contacto">
+            <h3>Contacto</h3>
+            <p>Dirección: 456 Avenida del Sol, Madrid</p>
+            <p>Teléfono: +123 456 7890</p>
+            <p>Email: eclatrestaurante@gmail.com</p>
+        </div>
+        <div class="redesSociales">
+            <h3>Síguenos</h3>
+            <div class="iconosRedes">
+                <a href="https://www.facebook.com/?locale=es_ES"><i class="ri-facebook-circle-fill"></i></a>
+                <a href="https://www.instagram.com"><i class="ri-instagram-line"></i></a>
+                <a href="https://twitter.com/"><i class="ri-twitter-line"></i></a>
+            </div>
+        </div>
+        <div class="derechos">
+            <p>&copy; 2024 Éclat. Todos los derechos reservados.</p>
+            <p><a href="#">Términos y condiciones</a> | <a href="#">Política de privacidad</a></p>
+        </div>
+    </div>
+</footer>
+<script src="feedback.js"></script>
+</body>
+</html>
