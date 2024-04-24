@@ -5,7 +5,6 @@ document.getElementById("reservaForm").addEventListener("submit", function(event
     const fecha = document.getElementById("fecha").value;
     const hora = document.getElementById("hora").value;
     const personas = document.getElementById("personas").value;
-    const reservas = [];
 
     if(fecha <= new Date().toISOString().split('T')[0]){
         alert("¡La fecha de reserva debe ser posterior a la fecha actual!");
@@ -17,6 +16,9 @@ document.getElementById("reservaForm").addEventListener("submit", function(event
         return;
     }
 
+    let reservasGuardadas = window.localStorage.getItem("reservas");
+    let reservas = reservasGuardadas ? JSON.parse(reservasGuardadas) : [];
+
     const confirmacion = confirm(`¿${nombre} Confirmas tu reserva para el día ${fecha} a las ${hora} para ${personas} personas?`);
 
     if (confirmacion) {
@@ -27,7 +29,9 @@ document.getElementById("reservaForm").addEventListener("submit", function(event
             personas: personas
         });
         alert("¡Reserva confirmada! ¡Nos vemos pronto!");
-        console.log(reservas)
+        window.localStorage.setItem("reservas", JSON.stringify(reservas));
+
+        console.log(reservas);
     } else {
         alert("¡Reserva cancelada! ¡Esperamos verte pronto!");
         window.location.href = "index.html";

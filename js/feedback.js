@@ -6,7 +6,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
          const nombre = document.getElementById("nombre").value;
          const comentario = document.getElementById("comentario").value;
-         const valoraciones = [];
+
+        let valoracionesGuardadas = window.localStorage.getItem("valoraciones");
+        let valoraciones = valoracionesGuardadas ? JSON.parse(valoracionesGuardadas) : [];
+
 
         const confirmacion = confirm(`¿${nombre} quieres enviar la valoración?`);
 
@@ -16,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 comentario: comentario
             });
             alert("¡Valoración enviada! ¡Gracias!");
+            window.localStorage.setItem("valoraciones", JSON.stringify(valoraciones));
             console.log(valoraciones)
         } else {
             alert("Valoración cancelada");
