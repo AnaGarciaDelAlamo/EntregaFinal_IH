@@ -61,6 +61,15 @@ nav{
     color: #0B2545;
 }
 
+#modoOscuro{
+    background-color: #5296A5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
 .tarjeta{
     color: white;
 }
@@ -179,6 +188,50 @@ footer{
 
 .derechos a:hover {
     text-decoration: underline;
+}
+
+/*Modo oscuro*/
+.modoOscuro{
+    background-color: #0B2545;
+    color: white;
+}
+
+.modoOscuro .logo h1 a{
+    color: #EEF4ED;
+}
+
+.modoOscuro .navLinks li a:hover{
+    color: #EEF4ED;
+}
+
+.modoOscuro .descripcion h3{
+    margin-top: 0;
+    color:#0B2545;
+}
+
+.modoOscuro .tarjeta{
+    width: 300px;
+    background-color:#5296A5;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.modoOscuro .filtros{
+    color: white;
+}
+
+.modoOscuro .filtros select{
+    background-color:white;
+    color:#0B2545;
+}
+
+.modoOscuro footer{
+    background-color: #5296A5;
+}
+
+.modoOscuro .contenidoFooter h3{
+    color:#0B2545;
 }
 
 /*responsive*/

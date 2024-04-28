@@ -61,6 +61,15 @@ nav{
     color: #0B2545;
 }
 
+#modoOscuro{
+    background-color: #5296A5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
 /*Introducción*/
 .introduccion, .mision, .vision {
     max-width: 800px;
@@ -155,6 +164,36 @@ footer{
 
 .derechos a:hover {
     text-decoration: underline;
+}
+
+/*Modo Oscuro*/
+.modoOscuro{
+    background-color: #0B2545;
+    color: white;
+}
+
+.modoOscuro .logo h1 a{
+    color: #EEF4ED;
+}
+
+.modoOscuro .navLinks li a:hover{
+    color: #EEF4ED;
+}
+
+.modoOscuro .introduccion h2, .mision h2, .vision h2 {
+    color:#5296A5;
+}
+
+.modoOscuro .introduccion, .modoOscuro .mision, .modoOscuro .vision {
+    color: white;
+}
+
+.modoOscuro footer{
+    background-color: #5296A5;
+}
+
+.modoOscuro .contenidoFooter h3{
+    color:#0B2545;
 }
 
 /*responsive*/

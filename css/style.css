@@ -61,6 +61,15 @@ nav{
     color: #0B2545;
 }
 
+#modoOscuro{
+    background-color: #5296A5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
 /*Contenedor1*/
 .contenedor1{
     display: flex;
@@ -275,6 +284,52 @@ footer{
 .derechos a:hover {
     text-decoration: underline;
 }
+
+/*Modo oscuro*/
+.modoOscuro{
+    background-color: #0B2545;
+    color: white;
+}
+
+.modoOscuro .logo h1 a{
+    color: #EEF4ED;
+}
+
+.modoOscuro .navLinks li a:hover{
+    color: #EEF4ED;
+}
+
+
+.modoOscuro .textoContenedor1 h2{
+    color: #EEF4ED;
+}
+
+.modoOscuro .descripcion {
+    color: white;
+}
+
+.modoOscuro .contenidoFeedback p {
+   color: black;
+}
+
+.btnFeedback {
+    background-color:#5296A5;
+    color: white;
+}
+
+.modoOscuro .textoContenedor1{
+    color: white;
+}
+
+.modoOscuro footer{
+    background-color: #5296A5;
+}
+
+.modoOscuro .contenidoFooter h3{
+    color:#0B2545;
+}
+
+
 
 
 /*responsive*/

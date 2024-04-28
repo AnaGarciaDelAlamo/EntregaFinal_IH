@@ -17,6 +17,14 @@ document.addEventListener("DOMContentLoaded", function() {
             this.classList.add("selected");
         });
     });
+
+    const modoOscuro = document.getElementById("modoOscuro");
+    const body = document.body;
+
+    modoOscuro.addEventListener("click", function() {
+        body.classList.toggle("modoOscuro");
+
+    });
 });
 
 

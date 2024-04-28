@@ -61,6 +61,16 @@ nav{
     color: #0B2545;
 }
 
+#modoOscuro{
+    background-color: #5296A5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 150px;
+}
+
 /* Estilos del formulario */
 .reservas {
     height: 100vh;
@@ -172,6 +182,33 @@ footer{
 .derechos a:hover {
     text-decoration: underline;
 }
+
+/*Modo Oscuro*/
+.modoOscuro{
+    background-color: #0B2545;
+    color: white;
+}
+
+.modoOscuro .logo h1 a{
+    color: #EEF4ED;
+}
+
+.modoOscuro .navLinks li a:hover{
+    color: #EEF4ED;
+}
+
+.modoOscuro .reservas h2{
+    color:#EEF4ED;
+}
+
+.modoOscuro footer{
+    background-color: #5296A5;
+}
+
+.modoOscuro .contenidoFooter h3{
+    color:#0B2545;
+}
+
 
 /*responsive*/
 @media screen and (max-width: 768px) {
