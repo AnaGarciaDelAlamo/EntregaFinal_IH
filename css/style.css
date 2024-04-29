@@ -221,6 +221,7 @@ nav{
     border-radius: 5px;
     cursor: pointer;
     height: 50px;
+    position: relative;
     width: 60%;
 }
 
